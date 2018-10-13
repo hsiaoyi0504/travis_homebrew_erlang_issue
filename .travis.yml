@@ -1,0 +1,10 @@
+sudo: required
+os: osx
+language: generic
+osx_image: xcode7.3
+
+install:
+- brew install erlang
+
+script:
+- echo $0
