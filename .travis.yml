@@ -4,6 +4,8 @@ language: generic
 osx_image: xcode7.3
 
 install:
+- export TRAVIS=1
+- ruby -v
 - brew install erlang
 
 script:
