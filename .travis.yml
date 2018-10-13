@@ -6,6 +6,7 @@ osx_image: xcode7.3
 install:
 - export TRAVIS=1
 - ruby -v
+- brew update
 - brew install erlang
 
 script:
